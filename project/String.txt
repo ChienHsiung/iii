@@ -1,7 +1,7 @@
-Python¤º«Øªº¦r¦ê³B²z¥\¯à
-Python³o­Óµ{¦¡»y¨¥©M¨ä¥Lª½Ä¶»y¨¥¤£¤@¼Ëªº¦a¤è¦b©ó¡A¦r¦ê¦Û¤v¥»¨­´N¯à°÷³B²z¦Û¤v¡C
+ï»¿Pythonå…§å»ºçš„å­—ä¸²è™•ç†åŠŸèƒ½
+Pythoné€™å€‹ç¨‹å¼èªè¨€å’Œå…¶ä»–ç›´è­¯èªè¨€ä¸ä¸€æ¨£çš„åœ°æ–¹åœ¨æ–¼ï¼Œå­—ä¸²è‡ªå·±æœ¬èº«å°±èƒ½å¤ è™•ç†è‡ªå·±ã€‚
 
-¨Ò¦p»¡¡A¤U­±¦³¦r¦ê¦s¦bstr³o­ÓÅÜ¼Æ¸Ì­±
+ä¾‹å¦‚èªªï¼Œä¸‹é¢æœ‰å­—ä¸²å­˜åœ¨stré€™å€‹è®Šæ•¸è£¡é¢
 >>> str = 'There is no coincidence. Only the illusion of coincidence.'
 str.capitalize  str.isalnum     str.lstrip      str.splitlines
 str.center      str.isalpha     str.partition   str.startswith
@@ -15,44 +15,44 @@ str.format      str.ljust       str.rstrip
 str.index       str.lower       str.split  
 
 
-¥i¥H¬İ¨ì¦r¦ê¥»¨­¦³¤W­zªº38ºØ³B²z¥\¯à¡G
-capitalize¡G¦r¦êªº²Ä¤@­Ó¦r¥À¤j¼g
-title¡G¦r¦ê¸Ì­±¹³¼ĞÃD¤@¼Ë¡A¨C­Ó¦rªº¶}ÀY¤j¼g
-lower¡G¥ş³¡¤p¼g
-upper¡G¥ş³¡¤j¼g
-swapcase¡G¤j¼gÅÜ¤p¼g¡B¤p¼gÅÜ¤j¼g
-center¡G±N¦r¦ê©ñ¦b¤¤¥¡
-ljust¡G±N¦r¦ê¦V¥ª¹ï»ô
-rjust¡G±N¦r¦ê¦V¥k¹ï»ô
-zfill¡G¦r¦ê«e­±¶ñ0
-count¡G­pºâ¬Y¦r¦ê¥X²{¦¸¼Æ
-decode¡G½s½X¬ÛÃö
-encode¡G½s½X¬ÛÃö¡A°Ñ¾\¡mPythonªº½s½X¡n
-endswith¡G§PÂ_¦r¦êµ²§ô¬O¤°»ò¡A¦^¶Çbool
-startswith¡G§PÂ_¦r¦ê¶}©l¬O¤°»ò¡A¦^¶Çbool
-find¡G¦^¶Ç¬Y¦r¦ê¦bstr¥X²{ªº¦ì¸m¡AS.find() but raise ValueError
-rfind¡G±q¥kÃä¥Îfindºâ¦^¨Ó
-index¡G¦^¶Ç¬Y¦r¦ê¦bstr¥X²{ªº¦ì¸m¡AReturn -1 on failure
-rindex¡G±q¥kÃäindex¶}©lºâ
-replace¡G¨ú¥N
-translate¡G
-format¡G¥i¥H¹³printf¤@¼Ë§â¼Æ­È¥N´«¦ı¦r¦ê¤¤¡A°Ñ¦Ò¡m¦r¦ê®æ¦¡¤Æ¡n
-isalnum¡GReturn True if all characters in S are alphanumeric
-isalpha¡GReturn True if all characters in S are alphabetic
-isdigit¡GReturn True if all characters in S are digits
-islower¡GReturn True if all cased characters in S are lowercase and there is
+å¯ä»¥çœ‹åˆ°å­—ä¸²æœ¬èº«æœ‰ä¸Šè¿°çš„38ç¨®è™•ç†åŠŸèƒ½ï¼š
+capitalizeï¼šå­—ä¸²çš„ç¬¬ä¸€å€‹å­—æ¯å¤§å¯«
+titleï¼šå­—ä¸²è£¡é¢åƒæ¨™é¡Œä¸€æ¨£ï¼Œæ¯å€‹å­—çš„é–‹é ­å¤§å¯«
+lowerï¼šå…¨éƒ¨å°å¯«
+upperï¼šå…¨éƒ¨å¤§å¯«
+swapcaseï¼šå¤§å¯«è®Šå°å¯«ã€å°å¯«è®Šå¤§å¯«
+centerï¼šå°‡å­—ä¸²æ”¾åœ¨ä¸­å¤®
+ljustï¼šå°‡å­—ä¸²å‘å·¦å°é½Š
+rjustï¼šå°‡å­—ä¸²å‘å³å°é½Š
+zfillï¼šå­—ä¸²å‰é¢å¡«0
+countï¼šè¨ˆç®—æŸå­—ä¸²å‡ºç¾æ¬¡æ•¸
+decodeï¼šç·¨ç¢¼ç›¸é—œ
+encodeï¼šç·¨ç¢¼ç›¸é—œï¼Œåƒé–±ã€ŠPythonçš„ç·¨ç¢¼ã€‹
+endswithï¼šåˆ¤æ–·å­—ä¸²çµæŸæ˜¯ä»€éº¼ï¼Œå›å‚³bool
+startswithï¼šåˆ¤æ–·å­—ä¸²é–‹å§‹æ˜¯ä»€éº¼ï¼Œå›å‚³bool
+findï¼šå›å‚³æŸå­—ä¸²åœ¨strå‡ºç¾çš„ä½ç½®ï¼ŒS.find() but raise ValueError
+rfindï¼šå¾å³é‚Šç”¨findç®—å›ä¾†
+indexï¼šå›å‚³æŸå­—ä¸²åœ¨strå‡ºç¾çš„ä½ç½®ï¼ŒReturn -1 on failure
+rindexï¼šå¾å³é‚Šindexé–‹å§‹ç®—
+replaceï¼šå–ä»£
+translateï¼š
+formatï¼šå¯ä»¥åƒprintfä¸€æ¨£æŠŠæ•¸å€¼ä»£æ›ä½†å­—ä¸²ä¸­ï¼Œåƒè€ƒã€Šå­—ä¸²æ ¼å¼åŒ–ã€‹
+isalnumï¼šReturn True if all characters in S are alphanumeric
+isalphaï¼šReturn True if all characters in S are alphabetic
+isdigitï¼šReturn True if all characters in S are digits
+islowerï¼šReturn True if all cased characters in S are lowercase and there is
 at least one cased character in S, False otherwise.
-isspace¡GReturn True if all characters in S are whitespace
-istitile¡G
-isupper¡G
-islower¡G
-join¡GReturn a string which is the concatenation of the strings in theiterable.
-lstrip¡G¦r¦ê«e­±ªºªÅ®æ¡]©Î¬O«ü©w¦r¦ê¡^¥h°£
-strip¡G¦r¦ê«á­±ªºªÅ®æ¡]©Î¬O«ü©w¦r¦ê¡^¥h°£
-strip¡G«e«áªF¦è¥h°£
-partition¡G
-rpartition¡G
-split¡G
-rsplit¡G
-splitlines¡G§â¦r¦ê¤Á¦¨¤@¦æ¤@¦æ
-¥Ñ©óPythonªº¦r¦ê¦Û±a³o»ò¦hªº³B²z¥\¯à¡A¦]¦¹©MPerl©Î¬OPHP¹ï©ó¦r¦ê³B²zªº¤è¦¡«Ü¤£¬Û¦P¡A³o¥i¯à·|Åı±q¥t¥~³o¨âºØ»y¨¥¸õ¹L¨Óªº¤ñ¸û¤£²ßºD
+isspaceï¼šReturn True if all characters in S are whitespace
+istitileï¼š
+isupperï¼š
+islowerï¼š
+joinï¼šReturn a string which is the concatenation of the strings in theiterable.
+lstripï¼šå­—ä¸²å‰é¢çš„ç©ºæ ¼ï¼ˆæˆ–æ˜¯æŒ‡å®šå­—ä¸²ï¼‰å»é™¤
+stripï¼šå­—ä¸²å¾Œé¢çš„ç©ºæ ¼ï¼ˆæˆ–æ˜¯æŒ‡å®šå­—ä¸²ï¼‰å»é™¤
+stripï¼šå‰å¾Œæ±è¥¿å»é™¤
+partitionï¼š
+rpartitionï¼š
+splitï¼š
+rsplitï¼š
+splitlinesï¼šæŠŠå­—ä¸²åˆ‡æˆä¸€è¡Œä¸€è¡Œ
+ç”±æ–¼Pythonçš„å­—ä¸²è‡ªå¸¶é€™éº¼å¤šçš„è™•ç†åŠŸèƒ½ï¼Œå› æ­¤å’ŒPerlæˆ–æ˜¯PHPå°æ–¼å­—ä¸²è™•ç†çš„æ–¹å¼å¾ˆä¸ç›¸åŒï¼Œé€™å¯èƒ½æœƒè®“å¾å¦å¤–é€™å…©ç¨®èªè¨€è·³éä¾†çš„æ¯”è¼ƒä¸ç¿’æ…£

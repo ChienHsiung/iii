@@ -1,4 +1,7 @@
 # -*- coding:utf8 -*-
+
+# at cmd type chcp 65001
+
 from requests import Session
 
 def str2dict(data_str):
@@ -42,4 +45,5 @@ URL = "http://web.pcc.gov.tw/tps/pss/tender.do?searchMode=common&searchType=adva
 
 rs = Session()
 res = rs.post(URL, data=form_data)
+# print(res.text.encode(encoding='utf8',errors='strict').decode("cp950", "ignore")) #改變編碼
 print(res.text)
