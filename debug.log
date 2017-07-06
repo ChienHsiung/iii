@@ -1,6 +1,0 @@
-[0706/104256.401:ERROR:process_reader_win.cc(123)] NtOpenThread: {拒絕存取} 程序已請求存取一物件，但未被授與存取權。  (0xc0000022)
-[0706/104256.402:ERROR:exception_snapshot_win.cc(87)] thread ID 5360 not found in process
-[0706/104256.402:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
-[0706/104256.495:ERROR:process_reader_win.cc(123)] NtOpenThread: {拒絕存取} 程序已請求存取一物件，但未被授與存取權。  (0xc0000022)
-[0706/104256.496:ERROR:exception_snapshot_win.cc(87)] thread ID 644 not found in process
-[0706/104256.496:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
