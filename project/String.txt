@@ -1,0 +1,58 @@
+Python內建的字串處理功能
+Python這個程式語言和其他直譯語言不一樣的地方在於，字串自己本身就能夠處理自己。
+
+例如說，下面有字串存在str這個變數裡面
+>>> str = 'There is no coincidence. Only the illusion of coincidence.'
+str.capitalize  str.isalnum     str.lstrip      str.splitlines
+str.center      str.isalpha     str.partition   str.startswith
+str.count       str.isdigit     str.replace     str.strip
+str.decode      str.islower     str.rfind       str.swapcase
+str.encode      str.isspace     str.rindex      str.title
+str.endswith    str.istitle     str.rjust       str.translate
+str.expandtabs  str.isupper     str.rpartition  str.upper
+str.find        str.join        str.rsplit      str.zfill
+str.format      str.ljust       str.rstrip      
+str.index       str.lower       str.split  
+
+
+可以看到字串本身有上述的38種處理功能：
+capitalize：字串的第一個字母大寫
+title：字串裡面像標題一樣，每個字的開頭大寫
+lower：全部小寫
+upper：全部大寫
+swapcase：大寫變小寫、小寫變大寫
+center：將字串放在中央
+ljust：將字串向左對齊
+rjust：將字串向右對齊
+zfill：字串前面填0
+count：計算某字串出現次數
+decode：編碼相關
+encode：編碼相關，參閱《Python的編碼》
+endswith：判斷字串結束是什麼，回傳bool
+startswith：判斷字串開始是什麼，回傳bool
+find：回傳某字串在str出現的位置，S.find() but raise ValueError
+rfind：從右邊用find算回來
+index：回傳某字串在str出現的位置，Return -1 on failure
+rindex：從右邊index開始算
+replace：取代
+translate：
+format：可以像printf一樣把數值代換但字串中，參考《字串格式化》
+isalnum：Return True if all characters in S are alphanumeric
+isalpha：Return True if all characters in S are alphabetic
+isdigit：Return True if all characters in S are digits
+islower：Return True if all cased characters in S are lowercase and there is
+at least one cased character in S, False otherwise.
+isspace：Return True if all characters in S are whitespace
+istitile：
+isupper：
+islower：
+join：Return a string which is the concatenation of the strings in theiterable.
+lstrip：字串前面的空格（或是指定字串）去除
+strip：字串後面的空格（或是指定字串）去除
+strip：前後東西去除
+partition：
+rpartition：
+split：
+rsplit：
+splitlines：把字串切成一行一行
+由於Python的字串自帶這麼多的處理功能，因此和Perl或是PHP對於字串處理的方式很不相同，這可能會讓從另外這兩種語言跳過來的比較不習慣
