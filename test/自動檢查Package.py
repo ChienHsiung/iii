@@ -8,7 +8,9 @@ def install(app):
     else:
         subprocess.call(['pip','uninstall',app,'-y'])
 
-install('tornado')
+# install('importlib')
+# install('tornado')
+# install('splinter')
 
 
 # print('hello')
