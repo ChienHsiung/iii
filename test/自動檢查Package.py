@@ -3,13 +3,15 @@ import importlib
 
 def install(app):
     ckApp = importlib.util.find_spec(app)
+    print(ckApp)
+
     if not ckApp:
         subprocess.call(['pip','install',app])
     else:
         subprocess.call(['pip','uninstall',app,'-y'])
 
 # install('importlib')
-# install('tornado')
+install('tornado')
 # install('splinter')
 
 
